@@ -20,8 +20,7 @@ const Mylist = ({columns}) => {
         </div>
       </div>
     </div>
-    
   );
 };
 
-export default Mylist;
+export default Mylist;

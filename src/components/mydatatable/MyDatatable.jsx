@@ -69,9 +69,10 @@ const Mydatatable = ({columns}) => {
     <div className="mydatatable">
       <div className="mydatatableTitle">
         {type.toUpperCase()}
-        <Link to={"/" + type +"/new"}className="link">
-        <li data-testid="link"></li>
-          Add New
+        <Link to={`/${type}/new`} className="link">
+          <li data-testid="link">
+            Add New
+          </li>
         </Link>
       </div>
       <DataGrid className="datagrid" 
@@ -89,4 +90,4 @@ const Mydatatable = ({columns}) => {
   );
 };
 
-export default Mydatatable;
+export default Mydatatable;
